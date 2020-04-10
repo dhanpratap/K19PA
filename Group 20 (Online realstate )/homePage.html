@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Online Real Estate</title>
+        <link rel="stylesheet" type="text/css" href="homePage.css">
+        <link rel="stylesheet" type="text/css" href="w3.css">
+    </head>
+    <body>
+        <div class="w3-bar">
+            <h1 class="w3-bar-item">Online Real Estate</h1>
+            <button id="signUp" class="w3-red w3-bar-item w3-button w3-right">SignUp</button>
+            <button id="signOut" class="w3-bar-item w3-blue w3-button w3-right">Log out</button>
+        </div>
+        <div class="BoxU">
+            <div class="signUpText w3-container w3-center">
+                <div id="closeU">+</div>
+                <img src="download.png">
+                <form id="frm1">
+                    <input class="w3-input w3-border" type="text" placeholder="Name">
+                    <br>
+                    <input class="w3-input w3-border" type="password" placeholder="Password">
+                    <button id="signUpSubmit" class="w3-button w3-red">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="BoxO">
+            <div class="signOutText w3-container w3-center">
+                <div id="closeO">+</div>
+                <h3 style="padding: 25px 0;">Are you sure you want to continue?</h3>
+                <a href="newLogin.html"><button id="yes" class="w3-button w3-green">Yes</button></a>
+                <button id="no" class="w3-button w3-red">No</button>
+            </div>
+        </div>
+        <div class="tabContainer">
+            <div class="buttonContainer w3-bar w3-dark-gray">
+                <button class="w3-button w3-bar-item w3-hover-black" onclick="showPanel(0,'#3caf50')">HOME</button>
+                <button class="w3-button w3-bar-item w3-hover-black w3-right" onclick="showPanel(1,'#3caf50')">HELP</button>
+                <button class="w3-button w3-bar-item w3-hover-black w3-right" onclick="showPanel(2,'#3caf50')">NEW</button>
+                <button class="w3-button w3-bar-item w3-hover-black w3-right" onclick="showPanel(3,'#3caf50')">SELL</button>
+                <button class="w3-button w3-bar-item w3-hover-black w3-right" onclick="showPanel(4,'#3caf50')">RENT</button>
+                <button class="w3-button w3-bar-item w3-hover-black w3-right" onclick="showPanel(5,'#3caf50')">BUY</button>
+            </div>
+            <div class="tabPanel">
+
+                <div class="search-tab">
+                    <form id="hfrm0">
+                        <input id="searchBar" class="w3-input w3-border w3-bar-item" type="text" placeholder="Search Location">
+                    </form>
+                    <button id="searchBtn" class="w3-button w3-bar-item w3-hover-white">Search</button>
+                </div>
+                
+                <div class="options">
+                    <button class="w3-btn">PG</button>
+                    <button class="w3-btn">FLATS</button>
+                    <button class="w3-btn">BOOKINGS</button>
+                    <button class="w3-btn">COMMERCIAL</button>
+                    <button class="w3-btn">OFFICES</button>
+                </div>
+
+                <div class="container">
+                    <div class="right">
+                        <h2 class="w3-center">PROJECTS</h2>
+                        <div class="w3-bar w3-center rightContainer">
+                            <div class="w3-bar-item">
+                                <img class="book" src="project1.jpg">
+                                <button class="w3-button w3-red bookbtn">BOOK</button>
+                            </div>
+                            <div class="w3-bar-item">
+                                <img class="book" src="project2.jpg">
+                                <button class="w3-button w3-red bookbtn">BOOK</button>
+                            </div>
+                            <div class="w3-bar-item">
+                                <img class="book" src="project3.jpg">
+                                <button class="w3-button w3-red bookbtn">BOOK</button>
+                            </div>
+                            <div class="w3-bar-item">
+                                <img class="book" src="project4.webp">
+                                <button class="w3-button w3-red bookbtn">BOOK</button>
+                            </div>
+                        </div>
+                        <a class="prev">&#10094;</a>
+                        <a class="next">&#10095;</a>
+                    </div>
+                    <div class="left">
+                        <h2>SERVICES</h2>
+                        <div class="w3-bar-block leftContainer w3-center">
+                            <button class="w3-bar-item leftButtons w3-border">TOWNSHIPS</button>
+                            <button class="w3-bar-item leftButtons w3-border">VENTURES</button>
+                            <button class="w3-bar-item leftButtons w3-border">LAND FOR SALE</button>
+                            <button class="w3-bar-item leftButtons w3-border">OFFICES</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tabPanel">Tab 2:Content</div>
+            <div class="tabPanel">Tab 3:Content</div>
+            <div class="tabPanel">Tab 4:Content</div>
+            <div class="tabPanel">Tab 5:Content</div>
+            <div class="tabPanel">Tab 6:Content</div>
+        </div>
+        <div class="foot w3-text-white">
+            <h2 class="w3-center w3-myfont">CONTACT US</h2>
+        </div>
+        <script src="myScript.js"></script>
+    </body>
+</html>
