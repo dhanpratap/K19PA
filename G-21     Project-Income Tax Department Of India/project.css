@@ -1,0 +1,168 @@
+
+.nav{
+    margin:20px auto;
+} 
+
+#newsblock{
+
+    border:3px solid black;
+}
+
+#newshead{
+    font-size:28px;
+    font-weight: bold;
+    margin-top: 0;
+    padding: 5px;
+    background: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-align: center;
+    color:white;
+}
+
+.n1{
+    background:#e2e2e2 ;
+}
+    
+
+marquee{
+    display:block;
+    color:#1e1f25;
+}
+
+
+
+
+
+
+
+.pans{
+    margin-top: 5px;
+}
+
+.pan{
+    border:3px solid black ;
+    height:540px;
+    max-height:800px ;
+}
+
+.panhead{
+    font-size:30px;
+    color:black;
+    font-weight: bold;
+    border-bottom:5px solid black ;
+    
+}
+
+
+
+
+.center form{
+	margin-top:50px ;
+	background:rgba(0, 0, 0, .3);
+    width: 100%;
+	padding: 50px 15px 0 30px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 0 0 5px 5px;
+}
+
+form input{
+	height: 50px;
+	width: 90%;
+	padding: 0 10px;
+	border-radius: 3px;
+	border: 1px solid silver;
+	font-size: 18px;
+	outline: none;
+}
+
+form input[type="password"]{
+	margin-top: 20px;
+}
+form i{
+	position: absolute;
+	font-size: 25px;
+	color: grey;
+	margin: 15px 0 0 -45px;
+}
+i.fa-lock{
+	margin-top: 35px;
+}
+form input[type="submit"]{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 140px;
+	height: 45px;
+	color: white;
+	cursor: pointer;
+	line-height: 45px;
+	border-radius: 45px;
+	border-radius: 5px;
+	background: greenyellow;
+}
+form input[type="submit"]:hover{
+	background: #491254;
+	transition: 1s;
+}
+
+form input[type="reset"]{
+    margin-top: 40px;
+	margin-bottom: 40px;
+	width: 140px;
+	height: 45px;
+	color: white;
+	cursor: pointer;
+	line-height: 45px;
+	border-radius: 45px;
+	border-radius: 5px;
+	background: rgb(1, 161, 113);
+}
+
+form input[type="reset"]:hover{
+    background:red ;
+    transition: 1s;
+
+}
+
+form a{
+	text-decoration: none;
+	font-size: 18px;
+	color: red;
+    padding: 0 0 0 20px;
+   
+    
+}
+
+
+
+#pan1{
+    background:url(./image/loginback.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+
+    
+}
+
+
+.quicklinks{
+
+    margin-top: 15px;
+    font-size:18px;
+    font-weight: bold;
+}
+
+#pan2{
+    background:url(./image/cc.webp);
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+
+    
+}
+#pan3{
+    background:url(./image/ddd.jpg);
+    background-repeat: no-repeat;
+    background-size:100% 100% ;
+}
+
+
+

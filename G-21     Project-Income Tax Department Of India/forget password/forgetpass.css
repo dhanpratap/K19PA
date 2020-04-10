@@ -1,0 +1,59 @@
+
+.nav{
+    margin:20px auto;
+} 
+
+
+form input[type="submit"]{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	width: 140px;
+	height: 45px;
+	color: white;
+	cursor: pointer;
+	line-height: 45px;
+	border-radius: 45px;
+	border-radius: 5px;
+	background: greenyellow;
+}
+
+form input[type="submit"]:hover{
+	background: #ff0e0e;
+	transition: 1s;
+}
+
+form input{
+	height: 30px;
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 10px;
+	padding: 0 10px;
+	border-radius: 3px;
+	border: 1px solid rgb(245, 14, 14);
+	font-size: 18px;
+    outline: none;
+    al
+}
+
+form label{
+    margin-left:40px;
+    font-size:15px;
+    
+}
+
+.center form{
+    
+	margin-top:10px ;
+	background:rgba(85, 85, 85, 0.5);
+    width: 100%;
+	padding: 50px 50px 0 30px;
+	box-sizing: border-box;
+	border: 1px solid rgb(255, 0, 0);
+	border-radius: 0 0 5px 5px;
+}
+
+.btn{
+    margin-top: 15px;
+    margin-left: 40%;
+}
+

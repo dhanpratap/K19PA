@@ -1,0 +1,49 @@
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px; 
+    resize: vertical ;
+  }
+  
+ 
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .btn{
+    margin-top: 15px;
+    margin-left: 40%;
+}
+
+.center form{
+    
+	margin-top:10px ;
+	background:rgba(6, 228, 54, 0.377);
+    width: 100%;
+	padding: 50px 50px 0 30px;
+	box-sizing: border-box;
+	border: 1px solid rgb(2, 59, 24);
+	border-radius: 0 0 5px 5px;
+}

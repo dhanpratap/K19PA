@@ -1,0 +1,27 @@
+
+.nav{
+    margin:20px auto;
+} 
+
+
+.center div{
+	margin-top:50px ;
+	background:rgba(0, 0, 0, .3);
+    width: 100%;
+	padding: 10px 10px 0 30px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	border-radius: 0 0 5px 5px;
+}
+
+.btn{
+    margin-top: 15px;
+    margin-left: 40%;
+}
+
+h4{
+    color: red;
+}
+p{
+    color: greenyellow;
+}

@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Income Tax Department of India</title>
+    
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+      <script src="https://code.jquery.com/jquery-2.2.4.js"
+      integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="
+      crossorigin="anonymous"></script>
+
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+
+      <link rel="stylesheet" type="text/css" href="project.css">
+
+      
+
+
+
+</head>
+<body>
+
+  <!-- ########################   NavBar    ################### -->  
+    <nav class="navbar navbar-default ">
+
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        
+        <div class="navbar-header">
+           <a  href="./project.html">
+              <img src="./image/logo.png" width="130" alt="">
+          </a> 
+        </div>
+
+        <div class="collapse navbar-collapse" id="bs-nav">
+            <ul class="nav navbar-nav">
+                <li><a href="./about/about.html">About</a></li>
+                <li><a href="./contact/contact.html">Contact</a></li>
+                <li><a href="./feedback/feedback.html">Feedback</a></li>
+                
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="./signup/signup.html">Sign Up</a></li>
+                
+            </ul>
+        </div> 
+    </nav>
+
+    <!-- ####################  Marquee News  #################### -->
+    <div id="newsblock">
+        <h1 id="newshead">---Breaking News---</h1>
+        <marquee class ="n1" behavior="alternate" direction="left">* More than 20 Lakh PAN applications processed per month</marquee>
+        <marquee behavior="alternate" direction="left">e-Verify your Return using Aadhaar OTP, Net Banking, Pre-Validated Bank Account and Pre-Validated Demat Account.    
+        </marquee>
+        <marquee class ="n1" behavior="alternate" direction="left">Finance Minister announces several relief measures relating to Statutory and Regulatory compliance matters across Sectors in view of COVID-19 outbreak</marquee>
+        <marquee  behavior="alternate" direction="left">Dear Taxpayers, Considering COVID-19, we have taken precautionary steps demanded by the situation. Our Helpdesk shall remain open with reduced staff, We urge you to stay safe.</marquee>
+     
+    </div>
+
+    <!-- ####################    Three Pans    ############### -->
+
+
+    <div class="pans container-lg">
+        <div class="col-md-3 col-sm-6 pan" id="pan1">
+            <div class="panhead">Log In</div>
+
+            <div class="loginform">
+                <div class="center">
+                    <!-- <div class="header">Login Form</div>	 -->
+                    <form>
+                        <input type="text" placeholder="Email or Username" required>
+                        <i class="far fa-envelope"></i>
+                        <input id="pswrd" type="password" placeholder="Password" required>
+                        <i class="fas fa-lock" onclick="show()"></i>
+                        <input type="submit" value="Sign in">
+                        <a class="btn btn-primary btn-lg" href="./reset/reset.html" role="button">Reset</a>
+                        <br>
+                        <a href="./forget password/forgetpass.html">Forgot Password?</a>
+                    </form>	
+                    </div>
+            </div>
+        </div>
+
+
+        <div  class="col-md-6 col-sm-6 pan" id="pan2">
+            <div class="panhead">News / Updates</div>
+            <div >
+                <ul class="quicklinks">
+                    <li>Order u/s 119 of The Income Tax Act, 1961 on issue of certificates for lower rate/nil deduction/collection of TDS or TCS u/s 195, 197 and 206C(9)</li>
+                    <hr>
+                    <li>Clarifications in respect of prescribed electronic modes under section 269SU of the Income-tax Act, 1961</li>
+                    <hr>
+                    <li>Direct Tax Vivad se Vishwas Rules, 2020</li>
+                    <hr>
+                    <li>Finance Act, 2020</li>
+                    <hr>
+                    <li>​Direct Tax Vivad se Vishwas Act, 2020</li>
+                    <hr>
+                </ul>
+
+            </div>
+
+            
+        </div>
+
+
+        <div class="col-md-3 col-sm-6 pan" id="pan3">
+              <div class="panhead">Quick Links</div>
+                 <div id="linkback">
+                     <ul class="quicklinks">
+                         <li><a href="./Instant Pan/epan.html">Instant e-Pan</a></li>
+                         <hr>
+   
+                         <li><a href="./link adhar/link adhar.html">Link Aadhaar</a></li>
+                         <hr>
+   
+                         <li><a href="./Submit Form/submit form.html">Submit Forms</a></li>
+                         <hr>
+   
+                         <li><a href="./ITR Status/ITR Status.html">ITR Status</a></li>
+                         <hr>    
+                      </ul>
+                 </div>
+                
+                <div>
+                    <div class="panhead">FAQs</div>
+                       <ul class="quicklinks">
+                           <li><a href="./FAQs/General FAQs.html">General FAQs </a></li>
+                       
+                          <li><a href="./FAQs/Income FAQs.html">FAQs on filing the return of income​</a></li>
+                    </ul>
+                </div> 
+        </div>
+    </div>
+
+    
+
+
+
+</body>
+</html>
