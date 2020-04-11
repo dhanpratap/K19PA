@@ -1,0 +1,133 @@
+#header {
+	background-color: #FFFFFF;
+	height: 180px;
+	text-align: center;
+	margin-left: 10px;
+	margin-right: 10px;;
+	padding: 10px;
+}
+#header > div {
+	width: 1300px;
+	margin: 0px;
+	padding: 0px;
+	text-align: right;
+	font-color: #000000;
+	position: right;
+	float: right;
+}
+/** Logo **/
+.logo {
+	float: left;
+	height: 150px;
+	width: 250px;
+	position: left;
+	position: fixed; 
+}
+
+
+.design{
+  text-align: center;
+  font-family: "Oswald";
+  background-color: #F68121;
+  font-size: 40px;
+  top: 20px;
+  padding: 20px;
+}
+
+
+/**nav bar**/
+.topnav {
+    background-color: #FFFFFF;
+    overflow: hidden;
+    position: right;
+    float: right;
+    position: fixed;
+    display: inline-flex;
+    vertical-align: bottom;
+ }
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  position: center;
+  color: #000000;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 20px;
+  overflow: hidden;
+  vertical-align: bottom;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #F68121;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #F68121;
+  color: white;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+  position: right;
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea{
+  width: 40%; /* Full width */
+  padding: 15px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 10px; /* Add a top margin */
+  margin-bottom: 10px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */ 
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  padding: 60px;
+  display: inline-block;
+  margin-right: 0 auto; 
+  margin-left: 0 auto;
+}
+
+.help{
+	float: right;
+	padding:60px;
+  text-align: left;
+	line-height: 30px;
+	font-size: 15px;
+}
+
+.cancelbtn {
+    width: auto;
+    float: right;
+    text-align: center;
+    background-color: #F68121;
+    padding: 5px;
+    font-family: "Oswald";
+    font-size: 15px;
+  }
+}

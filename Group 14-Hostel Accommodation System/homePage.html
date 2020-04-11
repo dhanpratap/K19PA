@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hostel Accomodation System</title>
+        <link rel="stylesheet" type="text/css" href="home.css">
+        <link rel="stylesheet" type="text/css" href="w3.css">
+        <script src="jQuery.js"></script>
+        <script>
+            $(document).ready(function(){
+           $('.apply').mouseover(function(){
+               $('.applyDropDown').show();
+           });
+           $('.apply').mouseout(function(){
+               $('.applyDropDown').hide();
+           });
+           $('.applyDropDown').mouseover(function(){
+               $('.apply').css('backgroundColor', '#ccc');
+               $('.apply').css('color', 'black');
+               $('.applyDropDown').show();
+           });
+           $('.applyDropDown').mouseout(function(){
+               $('.apply').css('backgroundColor', 'black');
+               $('.apply').css('color', 'white');
+               $('.applyDropDown').hide();
+           });
+           $('.bhostel').mouseover(function(){
+               $('.bhostelBlock').show();
+           });
+           $('.bhostel').mouseout(function(){
+               $('.bhostelBlock').hide();
+           });
+           $('.bhostelBlock').mouseover(function(){
+               $('.bhostel').css('backgroundColor', '#ccc');
+               $('.bhostel').css('color', 'black');
+               $('.bhostelBlock').show();
+           });
+           $('.bhostelBlock').mouseout(function(){
+               $('.bhostel').css('backgroundColor', 'black');
+               $('.bhostel').css('color', 'white');
+               $('.bhostelBlock').hide();
+           });
+           $('.ghostel').mouseover(function(){
+               $('.ghostelBlock').show();
+           });
+           $('.ghostel').mouseout(function(){
+               $('.ghostelBlock').hide();
+           });
+           $('.ghostelBlock').mouseover(function(){
+               $('.ghostel').css('backgroundColor', '#ccc');
+               $('.ghostel').css('color', 'black');
+               $('.ghostelBlock').show();
+           });
+           $('.ghostelBlock').mouseout(function(){
+               $('.ghostel').css('backgroundColor', 'black');
+               $('.ghostel').css('color', 'white');
+               $('.ghostelBlock').hide();
+           });
+           $('.myAcc').mouseover(function(){
+               $('.myAccount').show();
+           });
+           $('.myAcc').mouseout(function(){
+               $('.myAccount').hide();
+           });
+           $('.myAccount').mouseover(function(){
+               $('.myAcc').css('backgroundColor', '#ccc');
+               $('.myAcc').css('color', 'black');
+               $('.myAccount').show();
+           });
+           $('.myAccount').mouseout(function(){
+               $('.myAcc').css('backgroundColor', 'black');
+               $('.myAcc').css('color', 'white');
+               $('.myAccount').hide();
+           });
+        });
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="w3-center">Hostel Accomodation System</h1>
+            <div class="w3-bar">
+                <button class="w3-bar-item w3-button w3-green w3-border">HOME</button>
+                <button class="w3-bar-item w3-button w3-red w3-right w3-border">LogIn/Register</button>
+            </div>
+            <div class="w3-bar w3-black">
+                <button class="w3-bar-item w3-button apply">APPLY</button>
+                <button class="w3-bar-item w3-button bhostel">BOYS HOSTEL</button>
+                <button class="w3-bar-item w3-button ghostel">GIRLS HOSTEL</button>
+                <button class="w3-bar-item w3-button myAcc">MY ACCOUNT</button>
+            </div>
+            <div class="regContainer">
+                <div class="regArea w3-center">
+                    <span style="font-size: 1.9em; margin-top: 20px;">Enter Registration Details</span>
+                    <form id="frm1" class="w3-myfont">
+                        Roll Number
+                        <input class="w3-input w3-round w3-border" type="text" required>
+                        Branch
+                        <input class="w3-input w3-round w3-border" type="text" required>
+                        Year
+                        <input class="w3-input w3-round w3-border" type="text" required>
+                        Payment Amount
+                        <input class="w3-input w3-round w3-border" type="text" required>
+                    </form>
+                    <button id="sub" class="w3-button w3-red w3-round">Submit</button>
+                </div>
+            </div>
+            
+            
+            <div class="applyDropDown w3-border w3-bar-block">
+                <button class="w3-button w3-bar-item">NEW</button>
+                <button class="w3-button w3-bar-item">Existing</button>
+                <button class="w3-button w3-bar-item">Renew</button>
+                <button class="w3-button w3-bar-item">Check Availability</button>
+            </div>
+            <div class="bhostelBlock w3-border w3-bar-block">
+                <button class="w3-button w3-bar-item">Rooms</button>
+                <button class="w3-button w3-bar-item">A.C.</button>
+                <button class="w3-button w3-bar-item">NON A.C.</button>
+            </div>
+            <div class="ghostelBlock w3-border w3-bar-block">
+                <button class="w3-button w3-bar-item">Rooms</button>
+                <button class="w3-button w3-bar-item">A.C.</button>
+                <button class="w3-button w3-bar-item">NON A.C.</button>
+            </div>
+            <div class="myAccount w3-border w3-bar-block">
+                <button class="w3-bar-item w3-button">Your Profile</button>
+                <button class="w3-bar-item w3-button">Status</button>
+                <button class="w3-bar-item w3-button">LogOut</button>
+            </div>
+            <div class="foot w3-center w3-black">
+                <h2 class="w3-myfont">About Us</h2>
+                <p id="footTxt" class="w3-myfont">We Are The Web Worms @g-Fed.worm</p>
+            </div>
+        </div>
+    </body>
+</html>

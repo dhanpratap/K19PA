@@ -1,0 +1,86 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f1f1f1;
+}
+.applyDropDown{
+    position: fixed;
+    top: 152px;
+    left: 0;
+    width: 180px;
+    display: none;
+    z-index: auto;
+    background-color: white;
+}
+.bhostelBlock, .ghostelBlock{
+    position: fixed;
+    top: 152px;
+    width: 145px;
+    display: none;
+    z-index: auto;
+    background-color: white;
+}
+.bhostelBlock{
+    left: 76px;
+}
+.ghostelBlock{
+    left: 215px;
+}
+.myAccount{
+    position: fixed;
+    top: 152px;
+    width: 135px;
+    left: 360px;
+    display: none;
+    background-color: white;
+}
+.foot{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+#footTxt{
+    transition: .4s;
+    color: dodgerblue;
+    font-size: 1.2em;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+#footTxt:hover{
+    transform: scale(1.2);
+    text-decoration: underline;
+}
+.regArea{
+    height: 600px;
+    width: 450px;
+    margin: 45px auto;
+    background-color: #ffffff;
+    border: 1px solid gray;
+    border-radius: 4px;
+    box-shadow: 0 0 12px 4px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+#frm1{
+    font-size: 1.2em;
+    position: absolute;
+    bottom: 150px;
+    width: 80%;
+}
+#sub{
+    height: 40px;
+    position: absolute;
+    bottom: 80px;
+}
+.regContainer{
+    background-image: url('LPUhostel.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
