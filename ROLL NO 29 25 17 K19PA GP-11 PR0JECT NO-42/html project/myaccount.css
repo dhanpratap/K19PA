@@ -1,0 +1,58 @@
+body{
+				background-repeat:no-repeat;
+		}
+.para_class{
+				margin-top:40px;
+				margin:35px;
+				text-size:100px;
+				font-weight:bold;
+				color:yellow;
+				text-decoration:none;	
+		}
+button{
+				border-radius:10px;
+				background-color:lightgrey;
+				text-color:white;
+				font-style:italic;
+				font-weight:bold;
+				font-size:25px;
+				border-width:3px;
+				text-transform:capitalize;
+			}
+		button select{
+				background-color:lightgrey;
+				text-color:white;
+				font-style:italic;
+				font-weight:bold;
+				font-size:23px;
+				border-width:1px;
+				text-transform:capitalize;
+				padding:1px
+		}
+		button:hover{
+				cursor:pointer;
+			        background-color:grey;
+			}
+		
+		
+		a{
+				text-decoration:none;
+				color:black;
+			}
+		table{
+			margin:20px;
+			background:transparent;
+			background:rgba(0,0,0,0.5);
+			width:40%;
+			height:60%;
+			text-size:30px;
+			color:white;
+			border-radius:20px;
+			
+		}
+		p{
+			font-style:sans-serifs;
+			font-size:20px;
+			color:white;
+			text-decoration:underline;
+		}
