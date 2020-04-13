@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<head>
+    <title>payment</title>
+    <style>
+    h1{
+        text-decoration:underline ;
+        font-style:oblique;
+    }
+    .marquee_1{
+		
+        font-family:sarif;
+        color:deeppink;
+        font-size:40px;
+        font-style:italic;	
+    }
+    #hello{
+        width: 40%;
+        height: 40%;
+        padding: 40px;
+        background:transparent;
+        background:rgba(0,0,0,0.3);
+        font-size:30px;
+        font-style: italic;
+        border-radius: 30px;
+        text-decoration: none;
+    }
+    .moto{
+        align:center;
+        border-radius: 20px;
+        font-size: 30px;
+        padding: 5px;
+        background-color:aqua;
+        color: black;
+    
+    }
+    select{
+        border-radius: 10px;
+        background-color:yellow;
+        color: black;
+        font-style: inherit;
+        font-size: 15px;
+    }
+    input{
+        border-radius: 10px;
+        padding: 5px;
+        background-color:yellow;
+        color: black;
+        font-style: inherit;
+        font-size: 15px;
+    }
+    input:hover{
+        background-color: fuchsia;
+    }
+    button:hover{
+        cursor: pointer;
+        background-color:fuchsia;
+    }
+    select:hover{
+        background-color:  fuchsia;
+    }
+        a{
+            text-decoration: none;
+        }
+    button{
+				background-color:aqua;
+				font-style:italic;
+				font-weight:bold;
+				font-size:25px;
+				border-width:3px;
+				text-transform:capitalize;
+				border-radius:13px;
+				text-decoration: none;
+			}
+		button select{
+				background-color:aqua;
+				font-style:italic;
+				font-weight:bold;
+				font-size:23px;
+				border-width:1px;
+				text-transform:capitalize;
+				padding:1px;
+		}
+		button:hover{
+				cursor:pointer;
+			        background-color: fuchsia;
+			}
+    </style>
+    <script>
+            function fun1(){
+            var a=prompt("Please fill the OTP send on your device");
+       
+         if( a!=""){
+          alert("Money has been transfered successfully");
+            alert("your ticket is sucessfully booked");
+        }
+ 
+             else   {
+                    alert("please fill the otp");
+                fun1();
+                }}
+
+            </script>
+</head>
+<body background="travel.jpg">
+        <marquee class="marquee_1"> <i>Khalu Book Here.com </i></marquee>
+        <br> <br>
+        <div>
+                <center> 
+                        
+                        <button><a href="home.html"> Home </a></button>&emsp;&emsp;
+<button><a href="trainbook.html">Book train</a></button>&emsp;&emsp;
+    <button><a href="flightbook.html">book flight</a></button>&emsp;&emsp;&emsp;&emsp;
+                        <button> <a href="contact us.html"> CONTACT US </a> </button>&emsp;&emsp;
+                        <button><a href="myaccount.html">MY ACCOUNT</a></button>&emsp;&emsp;
+                </center>
+                </div>
+                <br>
+<h1 align="center">Do Payment Here!!!</h1>
+<div align="center" >
+    <table id="hello">
+        <tr>
+            <td>  Bank: </td>
+            <td> <select> Bank Names
+                <option> State Bank of India </option>
+                <option> Punjab National Bank  </option>
+                <option> Axis Bank  </option>
+                <option> Yes Bank  </option>
+                <option> HDFC Bank </option>
+                <option> Bank of Baroda </option>
+                <option> Central Bank of India </option>
+                <option> Union Bank of India</option>
+                <option> ICICI Bank</option>
+              
+            </select>
+            </td>
+        </tr>
+        <tr>
+            <td> Card Name Holder: </td>
+            <td>
+                <input type="text" placeholder= "name">;
+            </td>
+        </tr>
+        <tr>
+            <td>
+                Card Number:
+            </td>
+            <td>
+                <input type="number" placeholder="xxxx xxxx xxxx xxxx">
+            </td>
+        </tr>
+        <tr>
+            <td>Valid Upto: </td>
+            <td><input type="text" placeholder="MM/YY";</td>
+        </tr>
+        <tr>
+            <td> CVV :</td>
+            <td><input type="password" placeholder="xxx"></td>
+        </tr>
+    </table>
+    <br>
+<button class="moto" onclick="fun1();"><a href="home.html">Submit</a></button>
+</div>
+</body>
+</html>
